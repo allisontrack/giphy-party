@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    margin: 3%;
+}
+
+h1 {
+    font-weight: 100;
+}
+
+#gif-search-div {
+}
+
+#gif-search {
+    margin: 10px;
+    font-weight: 100;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#search-help-block {
+    color: grey;
+    font-size: smaller;
+    display: flex;
+    justify-content: center;
+}
+
+.side-margins {
+    margin: 0 8px 0 8px;
+}
+
+button {
+    color: white;
+    padding: 5px 8px 3px 8px;
+    border: none;
+    border-radius: 3px;
+}
+
+.green-btn {
+    background-color: lawngreen;
+}
+
+.pink-btn {
+    background-color: hotpink;
+}
+
